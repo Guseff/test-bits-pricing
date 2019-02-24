@@ -1,0 +1,48 @@
+.currency {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.currency-name {
+  font-size: 12px;
+  font-weight: bold;
+  color: #8992b9;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.currency-name--active {
+  color: #182873 !important;
+}
+
+.currency-switch {
+  margin: 0 10px;
+  position: relative;
+  width: 26px;
+  height: 15px;
+  background-color: #c9d4e2;
+  border-radius: 8px;
+}
+
+.currency-ind {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #0061ff;
+  border-radius: 8px;
+}
+
+.currency-ind--usd {
+  left: 0;
+}
+
+.currency-ind--eur {
+  right: 0;
+}
+
