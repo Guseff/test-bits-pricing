@@ -9,4 +9,10 @@
   width: 1320px;
   height: 96px;
   margin: 0 auto;
+  justify-content: space-between;
+}
+
+.header-menu-wrap {
+  display: flex;
+  align-items: center;
 }
