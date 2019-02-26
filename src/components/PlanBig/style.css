@@ -1,0 +1,52 @@
+.plan-big {
+  margin: 36px 47px 32px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan-big span {
+  font-weight: bold;
+}
+
+.plan-big--wrapper {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: left;
+}
+
+.plan-big--title {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.plan-big--subtitle {
+  font-size: 14px;
+  color: #182873;
+}
+
+.plan-big--caution {
+  font-size: 12px;
+  line-height: 1.67;
+  color: #8992b9;
+}
+
+.plan-big--price {
+  margin-right: 140px;
+  font-size: 44px;
+  position: relative;
+}
+
+.plan-big--supports {
+  font-size: 14px;
+  color: #8992b9;
+}
+
+.plan-big--price::after {
+  content: '/ mo';
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  top: -17px;
+  right: -8px;
+}

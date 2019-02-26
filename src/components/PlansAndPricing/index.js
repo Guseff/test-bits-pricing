@@ -2,9 +2,11 @@ import React from 'react';
 
 import Currency from '../CurrencyChange';
 import PlanWrapSmall from './PlanWrapperSmall';
+import PlanSmall from '../PlanSmall';
+import PlanWrapBig from './PlanWrapperBig';
+import PlanBig from '../PlanBig';
 
 import './style.css';
-import PlanSmall from '../PlanSmall';
 
 const PLANS = [
   {
@@ -52,6 +54,9 @@ const PlansAndPricing = () => (
         Please note that our prices are VAT exclusive.<br />
         VAT will be billed to EU customers in line with the applicable rates of their member state unless a valid VAT number is provided.
       </div>
+      <PlanWrapBig>
+        <PlanBig />
+      </PlanWrapBig>
     </div>
   </div>
 );
