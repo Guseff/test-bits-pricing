@@ -5,8 +5,6 @@ import ButtonFree from '../ButtonFree';
 
 class PlanBig extends Component {
   render() {
-    const data = this.props.data;
-
     return (
       <div className="plan-big">
         <div className="plan-big--wrapper">

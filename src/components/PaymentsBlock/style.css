@@ -1,0 +1,56 @@
+.payment {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.payment-title {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.67;
+  color: #182873;
+}
+
+.payment ul {
+  list-style: none;
+  padding: 0;
+  margin: 35px 0 22px;
+  text-align: center;
+  display: flex;
+}
+
+.payment ul li {
+  margin: 0 10px;
+}
+
+.payment ul li a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.payment-button {
+  width: 120px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fbfdff;
+  border-radius: 3px;
+  color: #0061ff;
+  border: 1px solid #d3e0ff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.payment-button img {
+  margin-right: 10px;
+}
+
+.payment-note {
+  width: 100%;
+  font-size: 12px;
+  line-height: 1.67;
+  color: #8992b9;
+}

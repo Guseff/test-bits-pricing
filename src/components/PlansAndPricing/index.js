@@ -7,6 +7,7 @@ import PlanWrapBig from './PlanWrapperBig';
 import PlanBig from '../PlanBig';
 
 import './style.css';
+import PaymentsBlock from '../PaymentsBlock';
 
 const PLANS = [
   {
@@ -57,6 +58,7 @@ const PlansAndPricing = () => (
       <PlanWrapBig>
         <PlanBig />
       </PlanWrapBig>
+      <PaymentsBlock />
     </div>
   </div>
 );
