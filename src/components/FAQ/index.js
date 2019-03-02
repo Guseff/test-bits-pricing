@@ -1,5 +1,7 @@
 import React from 'react';
 
+import FaqItem from './FaqItem';
+
 import './style.css';
 
 const FAQ_ITEMS = [
@@ -34,11 +36,11 @@ const FAQ = () => (
     </div>
     <div className="faq-list">
       {FAQ_ITEMS.map((item, i) => (
-        <div className='faq-item' key={i}>
-          <div className='faq-item--question'>
-            {item.question}
-          </div>   
-        </div>
+        <FaqItem
+          key={i}
+          question={item.question}
+          answer={item.answer}
+        />
       ))}
     </div>     
   </div>
