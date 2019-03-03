@@ -25,7 +25,7 @@ const HeaderMenu = () => (
       {MENU_ITEMS.map((item, i) => (
         <li key={i} className={classNames({'header-menu--active': item.active})}>
           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-          <a>{item.text}{item.sub ? <i className='arrow-up' /> : null}</a>
+          <a>{item.text}{item.sub ? <i className='header-arrow-up' /> : null}</a>
         </li>
       ))}
     </ul>
